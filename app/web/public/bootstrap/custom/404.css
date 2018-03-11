@@ -1,0 +1,59 @@
+/* Base styles */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  background: #F8F8F8;
+}
+
+/* Container */
+.container {
+  position: absolute;
+  width: 50em;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%,-40%);
+  text-align: center;
+}
+
+img {
+  width: 10%;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 5rem;
+    color: #777777;
+    
+}
+
+h2{
+    color: #CAC3BF;
+}
+
+h3{
+    color: #777777;
+}
+
+h3 > a {
+    text-decoration: none;
+    color: #4FAF00;
+}
